@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+	<jsp:output omit-xml-declaration="yes"/>
+
+<menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_uzer" z="nka08A3exUINRTe+98EK4GIE5JY=">
+            <menu:item id="i_uzer_new" messageCode="global_menu_new" url="/uzers?form" z="ZICPH50tpmy2x81VJ+AKsPzZDzY="/>
+        <menu:item id="i_uzer_list" messageCode="global_menu_list" url="/uzers?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="BTHCs8D4YG5HVUHnxyAlfuC3zxM="/>
+        </menu:category>
+    <menu:category id="c_callhistory" z="fxHsPLvVD5ufBRY9nandFo+5pz0=">
+            <menu:item id="i_callhistory_new" messageCode="global_menu_new" url="/callhistorys?form" z="WrFy1GqLSAWXFvb+3bG1MXcne6U="/>
+        <menu:item id="i_callhistory_list" messageCode="global_menu_list" url="/callhistorys?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="KKzCWqAst3s0WYePcblSwtGDbgk="/>
+        </menu:category>
+    <menu:category id="c_participant" z="ANH5qTsrRqntSp+G/TNiqRlMyII=">
+            <menu:item id="i_participant_new" messageCode="global_menu_new" url="/participants?form" z="d/gQJiqo5AiD27LP1zhtXRYMcyM="/>
+        <menu:item id="i_participant_list" messageCode="global_menu_list" url="/participants?page=${empty param.page ? 1 : param.page}&amp;size=${empty param.size ? 10 : param.size}" z="R2k1cdeM0SN/40fUhOr61vdrBHM="/>
+        </menu:category>
+    </menu:menu>
+</div>

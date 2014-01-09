@@ -1,0 +1,43 @@
+Logging in over SSL:
+	- TBD 
+	==> Will return an account object to include in header as part of every request. 
+		Header name: Authorization
+		
+Validate username and password:
+	- /login?username=username&password=password POST
+
+Create account
+TODO : Have to create a new username field and timezone SETTINSGS
+TODO : being recorded checkbox on indiviual blast
+
+1. POST /accounts
+	send account obj
+2. POST /accounts/<accountName>
+	send account user obj
+
+Change CallerID
+PUT /accounts/foo
+	send account obj
+	
+POST response codes
+403 - error
+201 - success
+
+Start conference
+/accounts/foo/communicationEvents
+POST outbound conf xml (name, contacts, groups, recordings, scheduled delivery date)
+
+Grab call history
+/accounts/foo/communicationEvents
+GET
+
+Remaining minutes
+/accounts/foo/usage
+
+Service plans
+/servicePlans
+
+
+	
+
+	

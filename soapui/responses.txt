@@ -1,0 +1,50 @@
+POST to /blabrbot/api/accounts returns this successful result:
+
+<account uri="http://rest.dialmercury.com/accounts/bjornharvold/">
+   <activeTimeZone>GMT</activeTimeZone>
+   <lastUpdated>2010-02-05 06:34:37.982 EST</lastUpdated>
+   <urlName>bjornharvold</urlName>
+   <address uri="http://rest.dialmercury.com/accounts/bjornharvold/address/">
+      <zipcode>11201</zipcode>
+      <state>NY</state>
+      <emailAddress>bjorn@harvold.com</emailAddress>
+      <lastUpdated>2010-02-05 06:34:37.999 EST</lastUpdated>
+      <addressType enumType="com.dialmercury.blabr.domain.DestinationType">HOME</addressType>
+      <address_2/>
+      <city>Brooklyn</city>
+      <country>USA</country>
+      <address>154 Atlantic ave, 3R</address>
+      <telephoneNumber>2037449235</telephoneNumber>
+      <account ref=".."/>
+      <dateCreated>2010-02-05 06:34:37.999 EST</dateCreated>
+   </address>
+   <name>bjornharvold</name>
+   <active>true</active>
+   <dateCreated>2010-02-05 06:34:37.982 EST</dateCreated>
+   <accountUsers>
+      <accountUser uri="http://rest.dialmercury.com/accounts/bjornharvold/users/bjornharvold">
+         <enabled>true</enabled>
+         <lastName>Harvold</lastName>
+         <urlName>bjornharvold</urlName>
+         <lastUpdated>2010-02-05 06:34:38.13 EST</lastUpdated>
+         <password>8a2957e0063f2abf61bd145b6236a74a3708ac54</password>
+         <contact/>
+         <username>bjornharvold</username>
+         <emailShow>false</emailShow>
+         <email>bjorn@harvold.com</email>
+         <description>This is Bjorn. He rocks.</description>
+         <roles>
+            <role uri="http://rest.dialmercury.com/roles/accountUserRole/">
+               <authority>ROLE_ACCOUNTUSER</authority>
+               <description>All account holders use this role to perform account-specific operations</description>
+               <name>Account User Role</name>
+               <urlName>accountUserRole</urlName>
+               <accountUsers ref="../../.."/>
+            </role>
+         </roles>
+         <account ref="../.."/>
+         <dateCreated>2010-02-05 06:34:38.13 EST</dateCreated>
+         <firstName>Bjorn</firstName>
+      </accountUser>
+   </accountUsers>
+</account>

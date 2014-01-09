@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_talkblast_domain_Uzer" items="${uzers}" z="9NHpFRqOWxiqzSosR/WKDIFz0GI=">
+        <table:table data="${uzers}" id="l_com_talkblast_domain_Uzer" path="/uzers" z="CNfOKoxfbtgh8KgYuMoNJU/Zkas=">
+            <table:column id="c_com_talkblast_domain_Uzer_username" property="username" z="AT8jKa3QGXOX1IbbSZMUNdCih4U="/>
+            <table:column id="c_com_talkblast_domain_Uzer_pazzword" property="pazzword" z="Z3KpqFspy+NE9iIMnzXCHUQya94="/>
+            
+        </table:table>
+    </page:list>
+</div>

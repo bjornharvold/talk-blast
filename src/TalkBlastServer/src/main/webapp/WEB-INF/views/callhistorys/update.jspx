@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_talkblast_domain_CallHistory" modelAttribute="callHistory" path="/callhistorys" z="yiFbI3Bgxzd+qTMG7uBmxf1o4CQ=">
+        <field:input field="name" id="c_com_talkblast_domain_CallHistory_name" z="Zjzf+j5s0o5EUAUF1EpB/YWM22E="/>
+        <field:datetime dateTimePattern="${callHistory_created_date_format}" field="created" id="c_com_talkblast_domain_CallHistory_created" z="MATCwMcdyTiVPvmOxf4G3HhvT4w="/>
+        <field:datetime dateTimePattern="${callHistory_delivery_date_format}" field="delivery" id="c_com_talkblast_domain_CallHistory_delivery" z="ayeUS8DBZNwUk7mTpeEgEGpOPSw="/>
+        <field:select field="participants" id="c_com_talkblast_domain_CallHistory_participants" itemValue="id" items="${participants}" multiple="true" path="/participants" z="HHplIegd30BfZVBxTJLiGsyWYVU="/>
+        <field:select field="uzer" id="c_com_talkblast_domain_CallHistory_uzer" itemValue="id" items="${uzers}" path="/uzers" z="G7W/XfHu3rnJDIZr18ysT9UpV2Y="/>
+    </form:update>
+</div>

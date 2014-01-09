@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_talkblast_domain_Participant" modelAttribute="participant" path="/participants" z="HuuMILJjhGemtkVmg6FituEuQhU=">
+        <field:input field="name" id="c_com_talkblast_domain_Participant_name" z="rZEEXLg2oDgGfOa3z7r7dprawGI="/>
+        <field:input field="phone" id="c_com_talkblast_domain_Participant_phone" z="Z2sPKlS/C5TalwwemLzeK3OkaBA="/>
+    </form:update>
+</div>

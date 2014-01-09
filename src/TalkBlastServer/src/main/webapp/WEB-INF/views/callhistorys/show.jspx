@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_talkblast_domain_CallHistory" object="${callhistory}" z="MW5aPUDm5ShCZQhViwLt+3Mq4/s=">
+        <field:display field="name" id="s_com_talkblast_domain_CallHistory_name" object="${callhistory}" z="c2nmplBYtTqq4DPg09JhNrwiOJ0="/>
+        <field:display date="true" dateTimePattern="${callHistory_created_date_format}" field="created" id="s_com_talkblast_domain_CallHistory_created" object="${callhistory}" z="LqeSmLBfg7gN0u0PTeD19UAv8xs="/>
+        <field:display date="true" dateTimePattern="${callHistory_delivery_date_format}" field="delivery" id="s_com_talkblast_domain_CallHistory_delivery" object="${callhistory}" z="4GJ2tfXAC/LNts/6QlwFP2x8CcE="/>
+        <field:display field="participants" id="s_com_talkblast_domain_CallHistory_participants" object="${callhistory}" z="1uXAS2FRFPu148uN4dvmg7bwzjg="/>
+        <field:display field="uzer" id="s_com_talkblast_domain_CallHistory_uzer" object="${callhistory}" z="VpCtjiOC2PDuBJFA32k1wajyo5Q="/>
+    </page:show>
+</div>

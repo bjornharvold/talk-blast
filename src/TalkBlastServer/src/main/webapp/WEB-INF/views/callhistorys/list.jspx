@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_talkblast_domain_CallHistory" items="${callhistorys}" z="9eUjJlXdc4ZFHxNxOmR7EhuwDr4=">
+        <table:table data="${callhistorys}" id="l_com_talkblast_domain_CallHistory" path="/callhistorys" z="lAFpjXqPANZcDnEa082C6PzQi/Q=">
+            <table:column id="c_com_talkblast_domain_CallHistory_name" property="name" z="mdT08aaKHO1HyGHCDrUXZXDEJa4="/>
+            <table:column id="c_com_talkblast_domain_CallHistory_created" property="created" z="JMOm3BX0C2Wr/pjdJ23lqLzS72M="/>
+            <table:column id="c_com_talkblast_domain_CallHistory_delivery" property="delivery" z="rvGXiedfXoq5tvxzSPYKWCs3f5c="/>
+            <table:column id="c_com_talkblast_domain_CallHistory_participants" property="participants" z="uzLHmyxZzv20lzwyxIVdgPdsfdk="/>
+            <table:column id="c_com_talkblast_domain_CallHistory_uzer" property="uzer" z="MjFF3YgSRjJ6degVBokeK5KKpTc="/>
+        </table:table>
+    </page:list>
+</div>
